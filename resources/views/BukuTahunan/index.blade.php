@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Photo Groups</title>
-</head>
-<body>
-    @include("ApaituRPL.layouts.header")
-    <h1>Photo Groups</h1>
+@section("content")
+<!-- KONTEN -->
+<h1>Photo Groups</h1>
+@foreach ($groups as $group)
+<div class="group" class="d-flex justify-content-start">
+    <h2>{{ $group['name'] }}</h2>
+    <img src="{{ $group['photo'] }}" alt="Photo of group {{ $group['name'] }}">
 
     @foreach ($groups as $group)
         <div class="group">
