@@ -1120,3 +1120,11 @@ table th {
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
+<<<<<<< HEAD
+=======
+
+.group{
+  display: flex;
+  justify-content: flex-start;
+}
+>>>>>>> 9539ad0 (update)
