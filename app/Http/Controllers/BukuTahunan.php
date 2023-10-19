@@ -37,7 +37,7 @@ class BukuTahunan extends Controller
             ],
         ];
 
-        return view('photo-groups', [
+        return view('BukuTahunan.index', [
             'groups' => $groups,
         ]);
     }
