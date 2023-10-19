@@ -15,4 +15,4 @@
 @endforeach
 <!-- KONTEN -->
 @endsection
-@include("ApaituRPL.layouts.layouts-web")
+@include("layouts.layouts-web")
