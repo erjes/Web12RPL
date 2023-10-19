@@ -2,11 +2,12 @@
 @section("content")
 <!-- KONTEN -->
 <div class="column">
-  <div class="row">
-    <div class="card">
+    @foreach($groups["students"] as $item)
+  <div class="row mb-2">
+    <div class="card mt-2">
       <img src="img1.jpg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>Jane Doe</h2>
+        <h2>{{$item["name"]}}</h2>
         <p class="title">CEO &amp; Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
@@ -14,33 +15,9 @@
       </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="card">
-      <img src="img2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="card">
-      <img src="img3.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
+@endforeach
+  
 </div>
 <!-- KONTEN -->
 @endsection
-@include("layouts.layouts-web")
+@include("layouts.header")

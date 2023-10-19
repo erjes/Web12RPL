@@ -8,11 +8,10 @@ class BukuTahunan extends Controller
 {
     public function index()
     {
-        $groups = [
-            [
+        $groups = array(
                 'name' => 'XII-RPL',
                 'photo' => 'https://example.com/photo/xii-rpl.jpg',
-                'students' => [
+                'students' => array(
                     [
                         'image' => 'js.png',
                         'name' => 'John Smith',
@@ -34,14 +33,10 @@ class BukuTahunan extends Controller
                         'class' => 'XII-RPL',
                         'roll_number' => 4,
                     ],
-                ],
-            ],
-        ];
+                ),
+            );
+        $title = "fitur1";
 
-        return view('BukuTahunan.index', compact('groups'), [
-            'groups' => $groups,
-            'title' => 'Halaman Utama'
-
-        ]);
+        return view('BukuTahunan.index', compact('groups', 'title'));
     }
 }
