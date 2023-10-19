@@ -14,5 +14,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('ApaituRPL.index');
+});
+
+
+Route::get('apaiturpl', function () {
+    return view('ApaituRPL.index');
+});
+Route::get('mapeldanguru', function () {
+    return view('MapeldanGuru.index');
+});
+Route::get('pkl', function () {
+    return view('PKL.index');
+});
+Route::get('prestasi', function () {
+    return view('Prestasi.index');
+});
+Route::get('daftarpengembang', function () {
+    return view('DaftarPengembang.index');
 });
