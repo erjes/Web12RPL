@@ -14,6 +14,7 @@ class BukuTahunan extends Controller
                 'photo' => 'https://example.com/photo/xii-rpl.jpg',
                 'students' => [
                     [
+                        'image' => 'js.png',
                         'name' => 'John Smith',
                         'class' => 'XII-RPL',
                         'roll_number' => 1,
@@ -37,7 +38,7 @@ class BukuTahunan extends Controller
             ],
         ];
 
-        return view('BukuTahunan.index', [
+        return view('BukuTahunan.index', compact('groups'), [
             'groups' => $groups,
             'title' => 'Halaman Utama'
 
