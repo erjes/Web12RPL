@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\ApaituRPLController::class, 'index']);
+Route::get('/bukuTahunan', 'PhotoGroupsController@index');
+
