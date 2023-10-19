@@ -5,7 +5,7 @@
 <body>
     @include('ApaituRPL.layouts.header')
     <main class="page-content">
-            <div class="container-fluid">
+            <div class="container">
               @yield('content')
     </main>
 </body>
