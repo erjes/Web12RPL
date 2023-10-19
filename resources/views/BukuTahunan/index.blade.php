@@ -4,6 +4,7 @@
     <title>Photo Groups</title>
 </head>
 <body>
+    @include("ApaituRPL.layouts.header")
     <h1>Photo Groups</h1>
 
     @foreach ($groups as $group)

@@ -39,6 +39,8 @@ class BukuTahunan extends Controller
 
         return view('BukuTahunan.index', [
             'groups' => $groups,
+            'title' => 'Halaman Utama'
+
         ]);
     }
 }
