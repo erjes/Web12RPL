@@ -15,7 +15,7 @@ use App\Http\Controllers\GuruController;
 |
 */
 
-Route::get('/', [App\Http\Controllers\ApaituRPLController::class, 'index']);
+// Route::get('/', [App\Http\Controllers\ApaituRPLController::class, 'index']);
 
 Route::get('/gurus', [GuruController::class, 'index'])->name('gurus.index');
 Route::get('/gurus/create', [GuruController::class, 'create'])->name('gurus.create');

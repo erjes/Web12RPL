@@ -25,8 +25,8 @@ class GuruController extends Controller
         $request->validate([
             'name' => 'required',
             'image' => 'required|image',
-            'nip' => 'required|string|max:255',
-            'notes' => 'nullable|string',
+            'nip' => 'required|string',
+            'notes' => 'required|string',
             'kelas' => 'required|integer',
         ]);
 

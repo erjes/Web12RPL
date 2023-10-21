@@ -28,7 +28,7 @@
                         <div class="card shadow-sm rounded-pill custom-card">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="{{ asset('storage/fotoGuru/' . $guru->image) }}"
+                                    <img src="{{ asset('fotoGuru/' . $guru->image) }}"
                                         class="card-img-right rounded-pill" height="200" width="200"
                                         alt="Card image cap">
                                 </div>

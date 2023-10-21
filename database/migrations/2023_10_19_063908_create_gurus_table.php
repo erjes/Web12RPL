@@ -17,8 +17,8 @@ class CreateGurusTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('nip');
-            $table->string('image')->nullable();
-            $table->text('notes')->nullable();
+            $table->string('image', 255);
+            $table->text('notes');
             $table->integer('kelas');
             $table->timestamps();
         });

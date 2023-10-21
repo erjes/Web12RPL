@@ -37,19 +37,19 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link {{ $title === 'Fitur1' ? 'active' : '' }}" href="/Fitur1"
+                        <a class="nav-link" href="/Fitur1"
                             style="color: white; margin-right: 20px; font-size: 15px;">Fitur 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ $title === 'Fitur2' ? 'active' : '' }}" href="/Fitur2"
+                        <a class="nav-link" href="/Fitur2"
                             style="color: white; margin-right: 20px; font-size: 15px;">Fitur 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ $title === 'Fitur3' ? 'active' : '' }}" href="/Fitur3"
+                        <a class="nav-link" href="/Fitur3"
                             style="color: white; margin-right: 20px; font-size: 15px;">Fitur 3</a>
                     </li>
                     <li class="nav-item" style="margin-right: 20px;"> <!-- Menambahkan margin -->
-                        <a class="nav-link {{ $title === 'Fitur4' ? 'active' : '' }}" href="/Fitur4"
+                        <a class="nav-link" href="/Fitur4"
                             style="color: white; font-size: 15px;">Fitur 4</a>
                     </li>
                     <li class="nav-item">
