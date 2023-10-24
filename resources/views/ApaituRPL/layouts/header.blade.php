@@ -15,6 +15,12 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .custom-card {
+            background-color: #4D4C7D;
+            color: #ffffff;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,8 +55,7 @@
                             style="color: white; margin-right: 20px; font-size: 15px;">Fitur 3</a>
                     </li>
                     <li class="nav-item" style="margin-right: 20px;"> <!-- Menambahkan margin -->
-                        <a class="nav-link" href="/Fitur4"
-                            style="color: white; font-size: 15px;">Fitur 4</a>
+                        <a class="nav-link" href="/Fitur4" style="color: white; font-size: 15px;">Fitur 4</a>
                     </li>
                     <li class="nav-item">
                         <div class="input-group ml-auto"> <!-- Menggunakan ml-auto untuk jarak ke kanan -->
