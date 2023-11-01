@@ -14,12 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('ApaituRPL.index');
-});
-
-
-Route::get('apaiturpl', function () {
-    return view('ApaituRPL.index');
+    return view(
+        'ApaituRPL.index',[
+        "title" => "Landing Page"
+        ]);
 });
 Route::get('mapeldanguru', function () {
     return view('MapeldanGuru.index');
