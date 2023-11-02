@@ -9,7 +9,7 @@
     <!-- akhir Jumbotron -->
 
     <!-- container -->
-    <div class="container" style="margin-top: -70px;">
+    <div class="container" style="margin-top: -150px;">
 
         <!-- info panel -->
         <div class="row justify-content-center">

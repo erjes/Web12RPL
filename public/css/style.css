@@ -12,9 +12,9 @@
 .jumbotron {
     width: 100%;
     max-width: 100%;
-    background: url(../img/background.png);
+    background: url(../img/newbackground.png);
     background-size: cover;
-    height: 100vh; /* Tinggi jumbotron setara dengan tinggi viewport */
+    min-height: 100vh; /* Tinggi jumbotron setara dengan tinggi viewport */
     position: relative;
     z-index: -1;
     animation: zoomOut 3s ease-in-out infinite;
@@ -161,7 +161,7 @@
 
     .jumbotron .display-4 {
         font-size: 40px;
-        margin-top: 200px;
+        margin-top: 220px;
     }
 
 
