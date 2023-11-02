@@ -1,5 +1,6 @@
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-@section("content")
+@extends('template')
+@section('konten')
 
 <!-- KONTEN -->
 <div class="column" id="c">
@@ -26,13 +27,13 @@
 
 </div>
   <style>
-    #c {
-      background-image: url('image/background2.jpg');
-      background-repeat: no-repeat;
-      background-size:cover;
-    }
+    /* #c { */
+      /* background-image: url('image/background2.jpg'); */
+      /* background-repeat: no-repeat; */
+      /* background-size:cover; */
+    /* } */
   </style>
 </div>
 <!-- KONTEN -->
 @endsection
-@include("layouts.header")
+{{-- @include("layouts.header") --}}

@@ -117,7 +117,7 @@
                             <a class="nav-link" href="{{ url('mapeldanguru') }}">Mata Pelajaran dan Guru</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('daftarpengembang') }}">Daftar Pengembang</a>
+                            <a class="nav-link" href="{{ url('bukuTahunan') }}">Buku Tahunan</a>
                         </li>
                     </ul>
                 </div>
@@ -132,11 +132,12 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer-custom">
+    {{-- <footer class="footer-custom">
         <div class="container">
             &copy; 2023 RPL 2024 SMKN 1 Jakarta
         </div>
-    </footer>
+    </footer> --}}
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </html>
+

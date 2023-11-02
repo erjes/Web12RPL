@@ -3,10 +3,10 @@
 <head>
 </head>
 <body>
-    @include('layouts.header')
+    @include('template')
     <main class="page-content">
             <div class="container-fluid">
-              @yield('content')
+              @yield('konten')
     </main>
 </body>
 </html>
