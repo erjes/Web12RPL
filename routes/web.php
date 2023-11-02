@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('ApaituRPL.index');
 });
@@ -33,3 +34,8 @@ Route::get('prestasi', function () {
 Route::get('daftarpengembang', function () {
     return view('DaftarPengembang.index');
 });
+=======
+Route::get('/', [App\Http\Controllers\ApaituRPLController::class, 'index']);
+Route::get('/bukuTahunan', [App\Http\Controllers\BukuTahunan::class, 'index'])->name("buku_tahunan");
+
+>>>>>>> 8189208822b394c48d2801d0246bdac5d100ad63

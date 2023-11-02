@@ -11,8 +11,14 @@
             background-color: #FAFAF6; /* Set your desired background color */
         }
 
+        .footer-custom, .navbar-custom {
+            margin: 0 auto;
+            max-height: 100px;
+        }
+
+
         .navbar-custom {
-            background: transparent; /* Transparent navbar background */
+            background: #040d1220; /* Transparent navbar background */
             border: none;
             color: #040D12; /* Text color */
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
@@ -29,6 +35,8 @@
         .navbar-custom .navbar-nav .nav-link {
             color: #040D12; /* Navbar link text color */
             margin: 0 10px;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            font-size: 18px
         }
 
         .navbar-custom .navbar-nav .nav-link:hover {
@@ -45,16 +53,18 @@
         }
 
         .footer-custom {
-            background: transparent; /* Transparent footer background */
+            background: #040d1220; /* Transparent footer background */
             border: none;
             color: #040D12; /* Text color in the footer */
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
             text-align: center;
-            padding: 10px 0;
+            padding: 5px 0;
             position: fixed;
             bottom: 0;
             left: 0;
             right: 0;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            font-size: 18px
         }
 
         .search-bar {
@@ -82,7 +92,6 @@
     </style>
 </head>
 
-<body>
     <header role="banner">
         <nav class="navbar navbar-custom navbar-expand-lg" id="navbar-primary">
             <div class="container">
@@ -117,7 +126,9 @@
     </header>
 
     <main class="container">
+        <body>
         @yield('konten')
+        </body>
     </main>
 
     <!-- Footer -->
@@ -128,5 +139,4 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
 </html>
