@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\MapelDanGuruController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\pageController;
+use App\Http\Controllers\guruController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +36,5 @@ Route::get('prestasi', function () {
 Route::get('daftarpengembang', function () {
     return view('DaftarPengembang.index');
 });
+
+Route::get('/mapeldanguru', [MapelDanGuruController::class, 'guru'])->name('MapelDanGuru.index');

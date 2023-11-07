@@ -87,7 +87,7 @@
         <nav class="navbar navbar-custom navbar-expand-lg" id="navbar-primary">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="{{ asset('picture/logorpl.jpeg') }}" alt="Logo" width="50" height="50">
+                    <img src="{{ asset('picture/logorpl.png') }}" alt="Logo" width="50" height="50">
                 </a>
                 <a class="navbar-brand" href="#">RPL 2024 SMKN 1 Jakarta</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
