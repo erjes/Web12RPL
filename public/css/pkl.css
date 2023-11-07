@@ -1,0 +1,87 @@
+
+/* Center the text on the image */
+.centered-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set text color to white, or a color that suits your design */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow to the text for contrast */
+    padding: 15px; /* Add padding for better text readability */
+  }
+
+  /* Set the background image for the row */
+  .row.h-500 {
+      background-image: url('../img/backgroundpkl.png');
+    background-size: cover; /* Adjust the background-size as needed */
+    background-position: center center;
+    height: 500px;
+    position: relative;
+  }
+
+  .btn-animated {
+      transform: scale(1);
+      transition: transform 0.3s ease; /* Set the transition property with ease timing function */
+    }
+
+    .btn-animated:hover, .btn-animated:focus, .btn-animated:active {
+      transform: scale(1.1);
+    }
+
+    img {
+      max-width: 50px; /* Allow the image to scale down */
+      height: auto;    /* Maintain the image's aspect ratio */
+    }
+
+
+  /* Make the row a flex container with equal height columns */
+  .row.equal-height {
+      display: flex;
+    }
+
+    /* Ensure equal heights for all direct children (the columns) */
+    .row.equal-height > .col-4 {
+      flex: 1;
+    }
+
+  /* CSS for the fade-in animation */
+  /* Define a fade-in animation */
+
+    /* Add a smooth transition effect for scaling */
+  .card-hover-zoom:hover {
+      transform: scale(1.05); /* Increase the size by 5% when hovered */
+      transition: transform 0.3s ease; /* Add a smooth transition effect */
+    }
+
+    /* Add animation for fading in and moving up */
+  .animated-fade-in-up {
+    animation: fade-in-up 1s ease;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animated-fade-in-up-2 {
+      animation: fade-in-up 2s ease;
+      animation-fill-mode: forwards;
+    }
+  @keyframes fade-in-up-2 {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  
