@@ -324,6 +324,29 @@
                             </div>
 
 
+                            <div class="col-4 mt-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="align-items-center">
+                                            <img src="img/CSISlogo.png" class="card-img-top" alt="CSIS"
+                                                style="width: 150%;height: auto;" />
+                                        </div>
+                                        <div class="row p-2 col-md-4 offset-md-4 w-50 text-center">
+                                            <span class="badge badge-success bg-success rounded-2 ">Swasta</span>
+                                            <span class="badge rounded-pill badge-success "></span>
+                                        </div>
+                                        <div class="card">
+                                            <h5 class="card-title">Centre for Strategic and International Studies (CSIS)</h5>
+                                            <p class="card-text">Gedung Pakarti Centre, Jl. Tanah Abang III No.23-27, RT.3/RW.3, Petojo Sel., Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta.</p>
+                                            <a class="mb-3" href="https://www.csis.or.id/">CSIS.or.id</a>
+                                        </div>
+                                        <a href="detailCSIS" class="btn btn-primary mt-2 w-100">Lihat</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
 
 
                         </div>

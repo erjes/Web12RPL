@@ -62,3 +62,7 @@ Route::get('/detailAskrindo', function () {
     return view('PKL.detailTempat.detailAskrindo');
 });
 
+Route::get('/detailCSIS', function () {
+    return view('PKL.detailTempat.detailCSIS');
+});
+
