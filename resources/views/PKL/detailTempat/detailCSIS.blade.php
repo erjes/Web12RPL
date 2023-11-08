@@ -52,10 +52,20 @@
                                 <div class="card-body">
 
                                     <p>Centre for Strategic and International Studies (CSIS) adalah lembaga think thank yang fokus pada perekonomian, politik dan perubahan sosial, dan hubungan internasional. CSIS melakukan kajian kebijakan, serta advokasi publik dan pendidikan publik. <br>
-                                        CSIS memiliki jejaring luas universitas dan lembaga penelitian di seluruh dunia, dan menjadi Sekretariat ASEAN-ISIS, sebuah konsorsium beranggotakan 10 think thank ternama di Asia Tenggara. <br>
+                                        CSIS melakukan penelitian di bidang ekonomi, politik dan perubahan sosial, serta hubungan internasional, dengan topik yang dipilih berdasarkan relevansinya dengan kebijakan publik. Studi interdisipliner dianjurkan. Di bidang kebijakan luar negeri, penelitian CSIS dilengkapi dan diperkuat oleh hubungannya dengan jaringan penelitian, akademik, dan organisasi lain yang luas di seluruh dunia.
+                                        Kemitraan Regional Di kawasan Asia-Pasifik yang lebih luas, CSIS secara aktif terlibat dengan jaringan lembaga-lembaga Track-Two dan lembaga pemikir regional dan internasional yang berinteraksi dengan kegiatan antar pemerintah.
+                                        Hal ini termasuk menjadi tuan rumah bagi Komite Nasional Kerjasama Ekonomi Pasifik Indonesia (INCPEC) untuk Dewan Kerjasama Ekonomi Pasifik (PECC), Komite Anggota Indonesia untuk Dewan Kerjasama Keamanan di Asia Pasifik (CSCAP), dan Sekretariat ISIS di ASEAN. CSIS juga merupakan lembaga pendiri Dewan Kerja Sama Asia Eropa (CAEC).
+                                        Melalui partisipasi aktifnya dalam kegiatan Track-Two, CSIS ikut serta dalam upaya mendorong kerja sama regional (ASEAN, Asia Pasifik) dan kerja sama intra-regional (ASEM). <br>
+                                        CSIS memiliki program publikasi aktif yang mencakup berbagai subjek dalam bahasa Inggris dan Bahasa Indonesia. <br> <br>
 
+                                      <strong>  Ini termasuk: <br>
 
-
+                                        1. Buku dan monografi yang meliput penelitian yang dilakukan oleh CSIS. <br>
+                                        2. The Indonesian Quarterly, jurnal berbahasa Inggris yang dimulai pada tahun 1974. <br>
+                                        3. Analisis CSIS, jurnal triwulanan berbahasa Indonesia yang diterbitkan sejak tahun 1971. <br>
+                                        4. Sebuah layanan kliping, yang berfungsi sejak tahun 1971, menyiapkan dan memelihara kliping dengan berbagai tema dari surat kabar nasional dan regional. <br>
+                                        5. CSIS bekerja sama dengan Proyek Indonesia dari Universitas Nasional Australia dalam mencetak dan mendistribusikan Buletin Studi Ekonomi Indonesia (BIES). <br>
+                                    </strong>
                                     </p>
 
                                 </div>

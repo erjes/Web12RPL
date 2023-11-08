@@ -338,7 +338,7 @@
                                         <div class="card">
                                             <h5 class="card-title">Centre for Strategic and International Studies (CSIS)</h5>
                                             <p class="card-text">Gedung Pakarti Centre, Jl. Tanah Abang III No.23-27, RT.3/RW.3, Petojo Sel., Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta.</p>
-                                            <a class="mb-3" href="https://www.csis.or.id/">CSIS.or.id</a>
+                                            <a class="mb-3" href="https://www.csis.or.id/">csis.or.id</a>
                                         </div>
                                         <a href="detailCSIS" class="btn btn-primary mt-2 w-100">Lihat</a>
                                     </div>

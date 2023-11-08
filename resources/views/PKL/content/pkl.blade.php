@@ -31,7 +31,8 @@
                             untuk memberikan pengalaman praktis kepada siswa atau mahasiswa dalam lingkungan kerja yang
                             sesungguhnya dan membantu mereka mengembangkan keterampilan yang diperlukan untuk mempersiapkan
                             diri memasuki dunia kerja. PKL juga dikenal dengan nama magang atau internship.</p>
-                        <p class="card-text mb-3">Adapun Tujuan PKL antara lain sebagai berikut:</p>
+
+                        <h3> <p class="card-text mb-3">  <strong> Adapun Tujuan PKL antara lain sebagai berikut: </strong></p> </h3>
 
                         <div class="row mt-3 fade-trigger">
 
@@ -42,7 +43,7 @@
                                             <img src="{{ asset('img/experience.png') }}" alt="" width="200">
                                             <h4 class="text-center">1. Pengalaman Praktis</h4>
                                         </div>
-                                        <p class="card-text">PKL memberikan kesempatan bagi siswa atau mahasiswa untuk
+                                        <p class="card-text">PKL memberikan kesempatan bagi siswa untuk
                                             mendapatkan pengalaman kerja nyata.</p>
                                     </div>
                                 </div>
@@ -104,7 +105,7 @@
                                             <h4 class="text-center">5. Persiapan Karir</h4>
                                         </div>
                                         <p class="card-text">
-                                            PKL membantu siswa atau mahasiswa memahami pekerjaan yang mereka minati, sejalan
+                                            PKL membantu siswa memahami pekerjaan yang mereka minati, sejalan
                                             dengan ekspektasi, dan menentukan bidang yang paling sesuai bagi mereka.
                                         </p>
                                     </div>
