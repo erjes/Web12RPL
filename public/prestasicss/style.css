@@ -3,15 +3,13 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 
 body{
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
   background: #fff;
-  display: inline;
 }
 
 .container{
@@ -24,17 +22,41 @@ body{
   height: 100vh;
 }
 
-/*Styles for prestasi card*/
+.rusak-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex;
+  gap: 20px;
+}
 
-.prestasi .prestasi-card{
+/*Style untuk prestasi card*/
+.prestasi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.haikal{
+  z-index: 2;
+}
+
+.indri{
+  z-index: 2;
+}
+
+.prestasi .prestasi-card {
   z-index: 1;
   background: #40514E;
   position: relative;
   width: 300px;
   height: 400px;
-  margin: 40px;
   border-radius: 10px;
+  margin: 0 20px 20px 0; /* Menyesuaikan jarak antar kartu */
 }
+
 
 .prestasi .prestasi-card:before{
   content: '';
@@ -58,7 +80,7 @@ body{
   transform: translate(-50%, -50%);
 }
 
-/*Edit Foto Disini*/
+/*Edit Template Foto Disini*/
 .prestasi .prestasi-card .prestasi-img-1{
     z-index: 1;
     position: absolute;
@@ -155,7 +177,7 @@ body{
 /*Styles for popup view*/
 
 .prestasi .popup-view{
-  z-index: 2;
+  z-index: 3;
   background: rgba(255, 255, 255, 0.5);
   position: fixed;
   top: 0;
@@ -203,6 +225,15 @@ body{
     width: 411px;
     left: 10px;
     top: -48px
+}
+
+.prestasi .popup-card .prestasi-img-1 img{
+  z-index: 2;
+    position: relative;
+    width: 368px;
+    background: #555;
+    left: 5px;
+    top: 4px;
 }
 
 .prestasi .popup-card .info{
@@ -335,4 +366,6 @@ body{
   .prestasi .popup-card .close-btn{
     z-index: 4;
   }
+
+
 }
