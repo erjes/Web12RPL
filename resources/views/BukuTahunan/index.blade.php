@@ -20,7 +20,6 @@
     @endforeach
 </body>
 </html>
-=======
 <div class="column">
     @foreach($groups["students"] as $item)
 
