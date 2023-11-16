@@ -69,7 +69,7 @@ class BukuTahunan extends Controller
                         'roll_number' => 8,
                     ],
                     [
-                        'image' => 'dede.jpeg',
+                        'image' => 'dede.png',
                         'name' => 'Dede Kurniawan',
                         'class' => 'XII-RPL',
                         'quotes' => '"Diatas langit masih ada langit, dibawah inti bumi masih ada pemula"',

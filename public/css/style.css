@@ -1,4 +1,4 @@
-/* Jumbotron */
+Jumbotron
 @keyframes zoomOut {
     0% {
         transform: scale(1);
@@ -318,7 +318,7 @@ input[type=radio]:checked {
 }
 
 p {
-    text-align: left;
+    /* text-align: left; */
 }
 
 /* CSS untuk membuat huruf 'j' pada "Jurusan" menjadi tebal */

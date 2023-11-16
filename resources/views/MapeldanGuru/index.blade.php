@@ -1,6 +1,6 @@
-@extends('NewLayouts.header')
+@extends('Template.header')
 @section('body')
-
+<title>Mata Pelajaran dan Guru</title>
 <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -9,7 +9,9 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+</script>
 
 <div style="padding: 10px; " class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
     <div class="btn-group me-3" role="group" aria-label="Basic radio toggle button group">
@@ -20,10 +22,7 @@
         <label class="btn btn-outline-primary" for="btnradio2">Non-kejuruan</label>
     </div>
 
-    <div class="input-group">
-        <div class="input-group-text" id="btnGroupAddon">&#x1F50E;</div>
-        <input type="text" class="form-control" placeholder="Cari guru di sini" aria-label="Input group example" aria-describedby="btnGroupAddon">
-    </div>
+
 </div>
 
 <p class="p-3">
